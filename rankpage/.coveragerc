@@ -1,0 +1,3 @@
+[run]
+source = rankpage
+omit = rankpage/test*
