@@ -1,15 +1,15 @@
-# experiment_neuralnetwork4textcategory #
+# Experiment: Clinical Trials Eligibility Criteria Classification #
 
-### 简介
-#### 数据来源：
+### 数据来源：
 中国临床试验注册网站
-#### 数据量：
+* [中国临床试验注册网站](http://www.chictr.org.cn/index.aspx)
+### 数据量：
 10000条筛选标准
-#### 数据特征：
+### 数据特征：
 文本格式，非结构化，中文，医学相关
-#### 实验平台：
+### 实验平台：
 Anaconda3 版本的Jupyter Notebook, Python3
-#### 所需python包：
+### 所需python包：
 * [pandas](https://pypi.org/project/pandas/)
 * [numpy](https://pypi.org/project/numpy/)
 * [codecs](https://docs.python.org/3/library/codecs.html)
@@ -17,7 +17,7 @@ Anaconda3 版本的Jupyter Notebook, Python3
 * [jieba](https://pypi.org/project/jieba/)
 * [wordcloud](https://pypi.org/project/wordcloud/)
 
-#### 方法：
+### 方法：
 神经网络 （Neural network）
 
 ### 试验介绍
