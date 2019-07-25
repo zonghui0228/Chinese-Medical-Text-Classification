@@ -1,7 +1,6 @@
 # Experiment: Clinical Trials Eligibility Criteria Classification #
 
 ### 数据来源：
-中国临床试验注册网站
 * [中国临床试验注册网站](http://www.chictr.org.cn/index.aspx)
 ### 数据量：
 10000条筛选标准
