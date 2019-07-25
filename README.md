@@ -17,7 +17,7 @@ Anaconda3 版本的Jupyter Notebook, Python3
 * [wordcloud](https://pypi.org/project/wordcloud/)
 
 ### 方法：
-神经网络 （[Neural network](https://github.com/zonghui0228/experiment_CriteriaClassification/network.py)），部分代码来源于《neural networks and deep learning》
+神经网络 （[Neural network](https://github.com/zonghui0228/experiment_CriteriaClassification/blob/master/network.py)），部分代码来源于《neural networks and deep learning》
 
 ### 试验介绍：
 [MedNLP(experiment).pptx](https://github.com/zonghui0228/experiment_CriteriaClassification/blob/master/supp/MedNLP(experiment).pptx)
