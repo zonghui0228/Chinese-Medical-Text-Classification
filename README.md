@@ -3,7 +3,7 @@
 ### 数据来源：
 [中国临床试验注册网站](http://www.chictr.org.cn/index.aspx)
 ### 数据量：
-10000条筛选标准
+10000条临床试验筛选标准，训练数据[8000](https://github.com/zonghui0228/experiment_neuralnetwork4textcategory/blob/master/data/train.data)条(含label)，测试数据[2000](https://github.com/zonghui0228/experiment_neuralnetwork4textcategory/blob/master/data/test.data)条
 ### 数据特征：
 文本格式，非结构化，中文，医学相关
 ### 实验平台：
