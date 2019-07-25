@@ -17,14 +17,15 @@ Anaconda3 版本的Jupyter Notebook, Python3
 * [wordcloud](https://pypi.org/project/wordcloud/)
 
 ### 方法：
-神经网络 （Neural network）
+神经网络 （[Neural network](https://github.com/zonghui0228/experiment_neuralnetwork4textcategory/network.py)），部分代码来源于《neural networks and deep learning》
 
 ### 试验介绍
-/supp/MedNLP(experiment).pptx
+[MedNLP(experiment).pptx](https://github.com/zonghui0228/experiment_neuralnetwork4textcategory/supp/MedNLP(experiment).pptx)
 
 ### 试验步骤
-/supp/experiment_introduction.docx
+[experiment_introduction.docx](https://github.com/zonghui0228/experiment_neuralnetwork4textcategory/supp/experiment_introduction.docx)
 
 ### 具体操作
-/CriteriaClassify.ipynb
+[CriteriaClassify.ipynb](https://github.com/zonghui0228/experiment_neuralnetwork4textcategory/CriteriaClassify.ipynb)
+
 
