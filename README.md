@@ -55,13 +55,12 @@ pip install -r requirements.txt
 docker pull zonghui0228/cn_med_text_class:latest
 ```
 ### 2. 运行镜像：
-
+* 选择1：直接运行镜像
 ```Bash
-# 选择1：直接运行镜像
 docker run -t -i -d -p 6543:6543 zonghui0228/cn_med_text_class
 ```
+* 选择2：训练好自己的模型后，加载到镜像里，运行镜像
 ```Bash
-# 选择2：训练好自己的模型后，加载到镜像里，运行镜像
 # 建立文件夹model
 mkdir model
 cd model
