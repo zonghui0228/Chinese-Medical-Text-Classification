@@ -1,7 +1,7 @@
 # Chinese Medical Short Text Classification #
 
 ## 数据介绍：
-* 10000条临床试验筛选标准，8000条训练数据(含label)，2000条测试数据。
+* 10000条医学相关短文本，8000条训练数据(含label)，2000条测试数据。
 * 自由文本格式，短文本，非结构化，中文，医学相关。   
 * 44类语义类别，样本数据中包含15类。  
 
@@ -20,8 +20,9 @@
 [Chinese_Medical_Text_Classification.pptx](https://github.com/zonghui0228/cn_med_text_class/blob/master/Chinese_Medical_Text_Classification.pptx)
 
 ## 实验环境：
-* Jupyter Notebook
+* Anaconda3
 * Python3
+* Jupyter Notebook
 * Pyramid
 * Docker
 
@@ -57,7 +58,7 @@ docker pull zonghui0228/cn_med_text_class:latest
 ### 2. 运行镜像：
 * 选择1：直接运行镜像
 ```Bash
-docker run -t -i -d -p 6543:6543 zonghui0228/cn_med_text_class
+docker run -it -d -p 6543:6543 zonghui0228/cn_med_text_class
 ```
 * 选择2：训练好自己的模型后，加载到镜像里，运行镜像
 ```Bash
@@ -65,7 +66,7 @@ docker run -t -i -d -p 6543:6543 zonghui0228/cn_med_text_class
 mkdir model
 cd model
 # 将模型文件都移动到此文件夹，然后执行：
-docker run -t -i -d -p 6543:6543 zonghui0228/cn_med_text_class
+docker run -it -d -p 6543:6543 zonghui0228/cn_med_text_class
 docker cp ./ CONTAINER_ID:/home/zonghui/mynginx/myproj/myproj/views/model/mymodel
 ```
 ### 3. 打开浏览器，输入：
