@@ -38,12 +38,12 @@ pip install -r requirements.txt
 ```
 
 ## 3. 实验方法
-* 逻辑回归, [logistic regression](https://nbviewer.jupyter.org/github.com/zonghui0228/cn_med_text_class/blob/master/models/LR/logistic_regression.ipynb)
-* 支持向量机, [support vector machine](https://nbviewer.jupyter.org/github.com/zonghui0228/cn_med_text_class/blob/master/models/SVM/support_vector_machine.ipynb)
-* K近邻算法, [k nearest neighbors](https://nbviewer.jupyter.org/github.com/zonghui0228/cn_med_text_class/blob/master/models/kNN/k_nearest_neighbors.ipynb)
-* 朴素贝叶斯, [naive bayes](https://nbviewer.jupyter.org/github.com/zonghui0228/cn_med_text_class/blob/master/models/NB/naive_bayes.ipynb)
-* 随机森林, [ranodm forest](https://nbviewer.jupyter.org/github.com/zonghui0228/cn_med_text_class/blob/master/models/RF/random_forest.ipynb)
-* ~~神经网络, [Neural network](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/NN/neural_network.ipynb)~~
+* 逻辑回归, [logistic regression](https://nbviewer.jupyter.org/github/zonghui0228/Chinese-Medical-Text-Classification/blob/master/models/LR/logistic_regression.ipynb)
+* 支持向量机, [support vector machine](https://nbviewer.jupyter.org/github/zonghui0228/Chinese-Medical-Text-Classification/blob/master/models/SVM/support_vector_machine.ipynb)
+* K近邻算法, [k nearest neighbors](https://nbviewer.jupyter.org/github/zonghui0228/Chinese-Medical-Text-Classification/blob/master/models/kNN/k_nearest_neighbors.ipynb)
+* 朴素贝叶斯, [naive bayes](https://nbviewer.jupyter.org/github/zonghui0228/Chinese-Medical-Text-Classification/blob/master/models/NB/naive_bayes.ipynb)
+* 随机森林, [ranodm forest](https://nbviewer.jupyter.org/github/zonghui0228/Chinese-Medical-Text-Classification/blob/master/models/RF/random_forest.ipynb)
+* ~~神经网络, [Neural network](https://nbviewer.jupyter.org/github/zonghui0228/Chinese-Medical-Text-Classification/blob/master/models/NN/neural_network.ipynb)~~
 
 ## 4. Docker安装和网页展示
 ### 1.下载镜像：
