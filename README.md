@@ -1,56 +1,53 @@
-# Chinese Medical Short Text Classification #
+# 中文医学短文本分类实验 #
 
-## 数据介绍：
-* 10000条医学相关短文本，8000条训练数据(含label)，2000条测试数据。
-* 自由文本格式，短文本，非结构化，中文，医学相关。   
-* 44类语义类别，样本数据中包含15类。  
+随着医院信息化的发展，医学临床数据呈现出指数级的增长和积累，其中大多数为非结构化的自由文本数据。基于自然语言处理技术（NLP）将非结构化的医疗文本转化为结构化的信息，挖掘知识，并开发相关工具应用于临床上，在智慧医疗英语具有巨大的价值和潜力。
 
-|#|group topics|semantic categories|
-|---|---|----
-|1|`Health Status`|`Disease` `Symptom` `Sign` `Pregnancy-related Activity` `Neoplasm Status` `Non-Neoplasm Disease Stage` `Allergy Intolerance` `Organ or Tissue Status` `Life Expectancy` `Oral related`
-|2|`Treatment or Health Care`|`Pharmaceutical Substance or Drug` `Therapy or Surgery` `Device` `Nursing`
-|3|`Diagnostic or Lab Test`|`Diagnostic` `Laboratory Examinations` `Risk Assessment` `Receptor Status`
-|4|`Demographic Characteristics`|`Age` `Special Patient Characteristic` `Literacy` `Gender` `Education` `Address` `Ethnicity`
-|5|`Ethical Consideration`|`Consent` `Enrollment in other studies` `Researcher Decision` `Capacity` `Ethical Audit` `Compliance with Protocol`
-|6|`Lifestyle Choice`|`Addictive Behavior` `Bedtime` `Exercise` `Diet` `Alcohol Consumer` `Sexual related` `Smoking Status` `Blood Donation`
-|7|`Data or Patient Source`|`Encounter` `Disabilities` `Healthy` `Data Accessible`
-|8|`Other`|`Multiple`
+一般来说，医学自然语言处理包括命名实体识别、实体标准化、关系抽取、文本分类、决策支持系统构建等。此实验内容为医学短文本分类。
 
-## PPT介绍：
-[Chinese_Medical_Text_Classification.pptx](https://github.com/zonghui0228/cn_med_text_class/blob/master/Chinese_Medical_Text_Classification.pptx)
+## 1. 实验数据
 
-## 实验环境：
-* Anaconda3
-* Python3
-* Jupyter Notebook
-* Pyramid
-* Docker
+数据来源于第五届中国健康信息处理会议（CHIP2019）评测三。为中国临床试验注册网站公开的临床试验受试者筛选标准文本。数据特点未自由文本格式，短文本，非结构化，中文，医学相关。
 
-## 所需python包：
-* [pandas](https://pypi.org/project/pandas/)
-* [numpy](https://pypi.org/project/numpy/)
-* [codecs](https://docs.python.org/3/library/codecs.html)
-* [scikit-learn==0.21](https://pypi.org/project/scikit-learn/)
-* [jieba](https://pypi.org/project/jieba/)
-* [wordcloud](https://pypi.org/project/wordcloud/)
-* [cornice](https://pypi.org/project/cornice/)
-* [xlrd](https://pypi.org/project/xlrd/)
-* [pickle5](https://pypi.org/project/pickle5/)
-* [joblib](https://pypi.org/project/joblib/)
-* [scipy](https://pypi.org/project/scipy/)  
+我们筛选了其中的10000条数据，其中训练数据8000条，测试数据2000条。
+
+类别包括15种，分别为： `成瘾行为（addictive behavior）`、`年龄（age）`、`过敏耐受（allergy intolerance）`、 `依存性（compliance with protocol）`、`知情同意（consent）`、`诊断（diagnostic）`、`疾病（disease）`、`参与其它试验（enrollment in other studies）`、`实验室检查（laboratory examinations）`、`预期寿命（life expectancy）`、`器官组织状态（organ or tissue status）`、`药物（pharmaceutical substance or drug）`、`风险评估（risk assessment）`、`吸烟状况（smoking status）`、`治疗或手术（therapy or surgery）`。
+
+## 2. 实验流程
+详细流程见文件 [Chinese_Medical_Text_Classification.pptx](https://github.com/zonghui0228/cn_med_text_class/blob/master/Chinese_Medical_Text_Classification.pptx)
+
+## 3. 实验环境
+* 软件工具
+  * Anaconda3
+  * Python3
+  * Jupyter Notebook
+  * Pyramid
+  * Docker
+* Python3 依赖包
+  * [pandas](https://pypi.org/project/pandas/)
+  * [numpy](https://pypi.org/project/numpy/)
+  * [codecs](https://docs.python.org/3/library/codecs.html)
+  * [scikit-learn==0.21](https://pypi.org/project/scikit-learn/)
+  * [jieba](https://pypi.org/project/jieba/)
+  * [wordcloud](https://pypi.org/project/wordcloud/)
+  * [cornice](https://pypi.org/project/cornice/)
+  * [xlrd](https://pypi.org/project/xlrd/)
+  * [pickle5](https://pypi.org/project/pickle5/)
+  * [joblib](https://pypi.org/project/joblib/)
+  * [scipy](https://pypi.org/project/scipy/)  
+
 ```Bash
-安装命令：
+# python3 packages install
 pip install -r requirements.txt
 ```
 
-## 分类方法：
+## 3. 实验方法
 * 逻辑回归, [logistic regression](https://github.com/zonghui0228/cn_med_text_class/blob/master/notebooks/logistic_regression.ipynb)
 * 支持向量机, [support vector machine](https://github.com/zonghui0228/cn_med_text_class/blob/master/notebooks/support_vector_machine.ipynb)
 * K近邻算法, [k nearest neighbors](https://github.com/zonghui0228/cn_med_text_class/blob/master/notebooks/k_nearest_neighbors.ipynb)
 * 朴素贝叶斯, [naive bayes](https://github.com/zonghui0228/cn_med_text_class/blob/master/notebooks/naive_bayes.ipynb)
-* 神经网络, [Neural network](https://github.com/zonghui0228/cn_med_text_class/blob/master/notebooks/neural_network.ipynb)，部分代码来源于《neural networks and deep learning》
+* 神经网络, [Neural network](https://github.com/zonghui0228/cn_med_text_class/blob/master/notebooks/neural_network.ipynb)
 
-## Docker安装：
+## 4. Docker安装和网页展示
 ### 1.下载镜像：
 ```Bash
 docker pull zonghui0228/cn_med_text_class:latest
