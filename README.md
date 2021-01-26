@@ -6,7 +6,8 @@
 
 ## 1. 实验数据
 
-数据来源于第五届中国健康信息处理会议（CHIP2019）评测三。为中国临床试验注册网站公开的临床试验受试者筛选标准文本。数据特点未自由文本格式，短文本，非结构化，中文，医学相关。
+> 数据来源于第五届中国健康信息处理会议（CHIP2019）评测三。为中国临床试验注册网站公开的临床试验受试者筛选标准文本。数据特点未自由文本格式，短文本，非结构化，中文，医学相关。
+>
 
 我们筛选了其中的10000条数据，其中训练数据8000条，测试数据2000条。
 
@@ -25,15 +26,11 @@
 * Python3 依赖包
   * [pandas](https://pypi.org/project/pandas/)
   * [numpy](https://pypi.org/project/numpy/)
-  * [codecs](https://docs.python.org/3/library/codecs.html)
-  * [scikit-learn==0.21](https://pypi.org/project/scikit-learn/)
+  * [scikit-learn](https://pypi.org/project/scikit-learn/)
   * [jieba](https://pypi.org/project/jieba/)
   * [wordcloud](https://pypi.org/project/wordcloud/)
-  * [cornice](https://pypi.org/project/cornice/)
-  * [xlrd](https://pypi.org/project/xlrd/)
-  * [pickle5](https://pypi.org/project/pickle5/)
-  * [joblib](https://pypi.org/project/joblib/)
-  * [scipy](https://pypi.org/project/scipy/)  
+  * [matplotlib](https://pypi.org/project/matplotlib/)
+  * [seaborn](https://pypi.org/project/seaborn/)
 
 ```Bash
 # python3 packages install
@@ -41,11 +38,12 @@ pip install -r requirements.txt
 ```
 
 ## 3. 实验方法
-* 逻辑回归, [logistic regression](https://github.com/zonghui0228/cn_med_text_class/blob/master/notebooks/logistic_regression.ipynb)
-* 支持向量机, [support vector machine](https://github.com/zonghui0228/cn_med_text_class/blob/master/notebooks/support_vector_machine.ipynb)
-* K近邻算法, [k nearest neighbors](https://github.com/zonghui0228/cn_med_text_class/blob/master/notebooks/k_nearest_neighbors.ipynb)
-* 朴素贝叶斯, [naive bayes](https://github.com/zonghui0228/cn_med_text_class/blob/master/notebooks/naive_bayes.ipynb)
-* 神经网络, [Neural network](https://github.com/zonghui0228/cn_med_text_class/blob/master/notebooks/neural_network.ipynb)
+* 逻辑回归, [logistic regression](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/LR/logistic_regression.ipynb)
+* 支持向量机, [support vector machine](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/SVM/support_vector_machine.ipynb)
+* K近邻算法, [k nearest neighbors](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/kNN/k_nearest_neighbors.ipynb)
+* 朴素贝叶斯, [naive bayes](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/NB/naive_bayes.ipynb)
+* 随机森林, [ranodm forest](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/RF/random_forest.ipynb)
+* 神经网络, [Neural network](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/NN/neural_network.ipynb)
 
 ## 4. Docker安装和网页展示
 ### 1.下载镜像：
