@@ -43,7 +43,7 @@ pip install -r requirements.txt
 * K近邻算法, [k nearest neighbors](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/kNN/k_nearest_neighbors.ipynb)
 * 朴素贝叶斯, [naive bayes](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/NB/naive_bayes.ipynb)
 * 随机森林, [ranodm forest](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/RF/random_forest.ipynb)
-* 神经网络, [Neural network](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/NN/neural_network.ipynb)
+* ~~神经网络, [Neural network](https://github.com/zonghui0228/cn_med_text_class/blob/master/models/NN/neural_network.ipynb)~~
 
 ## 4. Docker安装和网页展示
 ### 1.下载镜像：
